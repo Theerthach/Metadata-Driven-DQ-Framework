@@ -1,0 +1,20 @@
+columns:
+  booking_id:
+    type: int
+    nullable: false
+
+  flight_date:
+    type: date
+    nullable: false
+
+  booking_date:
+    type: date
+    nullable: false
+
+  fare:
+    type: float
+    nullable: false
+
+  status:
+    type: string
+    nullable: false

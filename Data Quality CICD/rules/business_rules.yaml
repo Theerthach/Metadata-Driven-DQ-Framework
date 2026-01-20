@@ -1,0 +1,11 @@
+rules:
+  - column: fare
+    condition: greater_than
+    value: 0
+
+  - column: status
+    allowed_values:
+      - CONFIRMED
+      - CANCELLED
+
+  - rule: flight_date_after_booking_date
